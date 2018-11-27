@@ -1,0 +1,275 @@
+*{
+			box-sizing: border-box;
+		}
+		.team {
+		    background: #f5f5f5;
+		    padding: 5em 0;
+		}
+		.container {
+		  padding-right: 15px;
+		  padding-left: 15px;
+		  margin-right: auto;
+		  margin-left: auto;
+		}
+
+		@media (min-width: 768px) {
+		  .container {
+		    width: 750px;
+		  }
+		}
+
+		@media (min-width: 992px) {
+		  .container {
+		    width: 970px;
+		  }
+		}
+
+		@media (min-width: 1200px) {
+		  .container {
+		    width: 1170px;
+		  }
+		}
+		h3.title {
+		    color: #faad81;
+		    font-size: 50px;
+		    text-align: center;
+		    margin-bottom: 1em;
+		    font-weight: 600;
+		    font-style: italic;
+		}
+		.team-grid {
+		    text-align: center;
+		}
+		.col-xs-4 {
+		    width: 33.33333333%;
+		    float: left;
+		    position: relative;
+		    min-height: 1px;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		}
+		/*-- Team --*/
+
+		.team {
+		    background: #f5f5f5;
+		    padding: 5em 0;
+		}
+
+		.team-grid {
+		    text-align: center;
+		}
+
+		.team-grid h4 {
+		    font-size: 25px;
+		    color: #000;
+		    font-weight: 600;
+		    margin: 40px 0 20px;
+		}
+
+		.team-grid p {
+		    color: #777;
+		    font-size: 1em;
+		}
+
+		.social-nav li {
+		    display: inline-block;
+		}
+
+		.social-nav a {
+		    display: inline-block;
+		    float: none;
+		    width: 30px;
+		    height: 30px;
+		    text-decoration: none;
+		    cursor: pointer;
+		    text-align: center;
+		    line-height: 30px;
+		    background: #000;
+		    position: relative;
+		    -webkit-transition: 0.5s;
+		    -moz-transition: 0.5s;
+		    -o-transition: 0.5s;
+		    transition: 0.5s;
+		}
+
+		.model-3d-0 a {
+		    background: #5C5B5B;
+		    -webkit-transform-style: preserve-3d;
+		    -moz-transform-style: preserve-3d;
+		    -ms-transform-style: preserve-3d;
+		    -o-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
+		}
+
+		.model-3d-0 .front,
+		.model-3d-0 .back {
+		    width: 30px;
+		    height: 30px;
+		    font-size: 1em;
+		    color: #fff;
+		    background: #faad81;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    -webkit-transform: translateZ(18px);
+		    -moz-transform: translateZ(18px);
+		    -ms-transform: translateZ(18px);
+		    -o-transform: translateZ(18px);
+		    transform: translateZ(18px);
+		    -webkit-backface-visibility: visible;
+		    -moz-backface-visibility: visible;
+		    -ms-backface-visibility: visible;
+		    -o-backface-visibility: visible;
+		    backface-visibility: visible;
+		}
+
+		.model-3d-0 .back {
+		    font-size: 1em;
+		    color: #fff;
+		    -webkit-transform: rotateX(90deg) translateZ(18px);
+		    -moz-transform: rotateX(90deg) translateZ(18px);
+		    -ms-transform: rotateX(90deg) translateZ(18px);
+		    -o-transform: rotateX(90deg) translateZ(18px);
+		    transform: rotateX(90deg) translateZ(18px);
+		    -webkit-backface-visibility: hidden;
+		    -moz-backface-visibility: hidden;
+		    -ms-backface-visibility: hidden;
+		    -o-backface-visibility: hidden;
+		    backface-visibility: hidden;
+		}
+
+		.twitter .back,
+		.facebook .back,
+		.instagram .back,
+		.pinterest .back {
+		    background: #81cdfa;
+		}
+
+		.model-3d-0 a:hover {
+		    -webkit-transform: rotateX(-90deg);
+		    -moz-transform: rotateX(-90deg);
+		    -ms-transform: rotateX(-90deg);
+		    -o-transform: rotateX(-90deg);
+		    transform: rotateX(-90deg);
+		}
+
+		.model-3d-0 a:hover .back {
+		    -webkit-backface-visibility: visible;
+		    -moz-backface-visibility: visible;
+		    -ms-backface-visibility: visible;
+		    -o-backface-visibility: visible;
+		    backface-visibility: visible;
+		}
+
+		.stack img {
+		    width: 100%;
+		    height: auto;
+		    vertical-align: bottom;
+		    border: 10px solid #fff;
+		    border-radius: 3px;
+		    -webkit-border-radius: 3px;
+		    -o-border-radius: 3px;
+		    -ms-border-radius: 3px;
+		    -moz-border-radius: 3px;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    -o-box-sizing: border-box;
+		    -ms-box-sizing: border-box;
+		    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -ms-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		}
+
+		.stack:last-of-type {
+		    margin-right: 0;
+		}
+
+		/* Third stack example (One stack element rotated in the opposite direction) */
+
+		.stack.twisted:before {
+		    -webkit-transform: rotate(4deg);
+		    -moz-transform: rotate(4deg);
+		    transform: rotate(4deg);
+		    -moz-transform: rotate(4deg);
+		    -o-transform: rotate(4deg);
+		}
+
+		.stack.twisted:after {
+		    -webkit-transform: rotate(-4deg);
+		    -moz-transform: rotate(-4deg);
+		    transform: rotate(-4deg);
+		    -ms-transform: rotate(-4deg);
+		    -o-transform: rotate(-4deg);
+		}
+
+		/* Reset all rotations on hover */
+
+		.stack:hover:before,
+		.stack:hover:after,
+		.team-grid:hover .stack:before,
+		.team-grid:hover .stack:after {
+		    -webkit-transform: rotate(0deg);
+		    -moz-transform: rotate(0deg);
+		    transform: rotate(0deg);
+		    -o-transform: rotate(0deg);
+		    -ms-transform: rotate(0deg);
+		}
+
+		/* Stacks creted by the use of generated content */
+
+		.stack:before,
+		.stack:after {
+		    content: "";
+		    border-radius: 3px;
+		    -webkit-border-radius: 3px;
+		    -o-border-radius: 3px;
+		    -ms-border-radius: 3px;
+		    -moz-border-radius: 3px;
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    border: 10px solid #fff;
+		    left: 0;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    -ms-box-sizing: border-box;
+		    -o-box-sizing: border-box;
+		    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -ms-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		    -webkit-transition: 0.3s all ease-out;
+		    -moz-transition: 0.3s all ease-out;
+		    transition: 0.3s all ease-out;
+		    -o-transition: 0.3s all ease-out;
+		    -ms-transition: 0.3s all ease-out;
+		}
+
+		.stack:before {
+		    top: 4px;
+		    z-index: -10;
+		}
+
+		/* 1st element in stack (behind image) */
+
+		.stack:after {
+		    top: 8px;
+		    z-index: -20;
+		}
+
+		/* 2nd element in stack (behind image) */
+
+		.stack {
+		    float: none;
+		    width: 92%;
+		    margin: 3% 0% 8% 4%;
+		    position: relative;
+		    z-index: 1;
+		}
+
+		/*-- //Team --*/

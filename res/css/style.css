@@ -31,6 +31,7 @@
   16. Footer
   17. Responsive images
   18. Features box
+  19. Maps
 */
 
 
@@ -59,7 +60,7 @@
 /* Home BG Static (default) */
 
 #home {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/bg-newbuilding50.jpg");
 }
 
 
@@ -73,26 +74,26 @@
 /* Home BG Slideshow */
 
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/newbuilding50.jpg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
-  background: url("../images/bg-home-2.jpg");
+  background: url("../images/mba.JPG");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
-  background: url("../images/bg-home-3.jpg");
+  background: url("../images/computer.JPG");
 }
 
 
 /* Home BG Slider */
 
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/newbuilding50.jpg");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(2) {
-  background: url("../images/bg-home-2.jpg");
+  background: url("../images/mba.JPG");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(3) {
-  background: url("../images/bg-home-3.jpg");
+  background: url("../images/computer.JPG");
 }
 #home-bg-slideshow .display-table-cell,
 #home-bg-slider .display-table-cell {
@@ -200,7 +201,7 @@
 */
 
 #venue {
-  background-image: url("../images/bg-venue.jpg");
+  background-image: url("../images/9.JPG");
   background-position: center bottom !important;
 }
 
@@ -643,12 +644,7 @@
 .footer {
   padding: 50px 0 32px;
 }
-.footer-logo {
-  padding-bottom: 25px;
-}
-.footer-logo img {
-  width: 120px;
-}
+
 .footer .disclaimer {
   padding-bottom: 25px;
   font-size: 14px;
@@ -710,4 +706,71 @@
   .row .features-box:last-child {
     margin-bottom: 0;
   }
+}
+
+/*
+  Map css
+*/
+.map2
+{
+  width: 100%;
+}
+.map {
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+}
+.map-holder {
+  height: 450px;
+}
+.map-holder iframe {
+  border: none;
+  width: 100%;
+  height: 450px;
+}
+.map-holder:before {
+  content: '';
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.map-holder.on:before {
+  width: 0%;
+}
+.map-overlay {
+  padding: 160px 0px;
+  position: relative;
+  overflow: hidden;
+}
+.map-overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.9;
+  z-index: 2;
+  background-color: #e74c3c;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.map-overlay .map-holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0px;
+}
+.map-overlay .map-holder iframe {
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  bottom: -80px;
+}
+.map-overlay .container {
+  position: relative;
+  z-index: 2;
 }

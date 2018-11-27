@@ -1887,21 +1887,42 @@ h6 {
 .navbar .navbar-brand {
   height: 80px;
   line-height: 80px!important;
-  padding: 0 15px
 }
 
 .navbar .navbar-brand img {
   display: inline-block;
-  max-height: 43px;
+  max-height: 250px;
   position: absolute;
-  top: 18px;
-  left: auto
+
 }
 
 .navbar .navbar-brand img.logo-navbar-white {
   opacity: 0
 }
+@media (max-width:640px) {
+  .pc
+  {
+    visibility: hidden;
+  }
+  .mobile
+  {
+    visibility: visible;
+    width:60%;
+    height: 60%;
+  }
 
+}
+@media (min-width:640px) {
+  .mobile
+  {
+    visibility: hidden;
+  }
+  .pc
+  {
+    visibility: visible;
+  }
+
+}
 .navbar .navbar-toggle {
   border: 1px solid #fff;
   border-radius: 0;
@@ -1995,7 +2016,6 @@ h6 {
 .navbar.navbar-white.shrink .navbar-brand img.logo-navbar-white {
   opacity: 1
 }
-
 section {
   padding: 0;
   padding-top: 120px;
@@ -4765,20 +4785,6 @@ section.pull-up {
   .navbar .navbar-nav>li {
     line-height: 80px!important;
     padding: 0 15px
-  }
-  .navbar.shrink .container {
-    height: 60px
-  }
-  .navbar.shrink .navbar-brand {
-    height: 60px;
-    line-height: 60px!important
-  }
-  .navbar.shrink .navbar-brand img {
-    max-height: 38px;
-    top: 9px
-  }
-  .navbar.shrink .navbar-nav>li {
-    line-height: 60px!important
   }
 }
 
