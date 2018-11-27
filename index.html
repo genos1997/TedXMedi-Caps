@@ -22,15 +22,15 @@
   <!-- Open Graph -->
   <meta property="og:title" content="TEDxMU">
   <meta property="og:description" content="Changing Era. This February, at Medi-Caps University">
-  <meta property="og:image" content="https://tedxjmi.com/res/images/logos/light-social.jpg">
-  <meta property="og:url" content="https://tedxjmi.com">
+  <meta property="og:image" content="res/images/logos/light-social.jpg">
+  <meta property="og:url" content="https://tedxmedicapsuniversity.com">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@TEDx_MU">
   <!-- Google+ -->
   <meta itemprop="name" content="TEDxMU">
   <meta itemprop="description" content="Changing Era. This February, at Medi-Caps University.">
-  <meta itemprop="image" content="https://tedxjmi.com/res/images/logos/light-social.jpg">
+  <meta itemprop="image" content="res/images/logos/light-social.jpg">
 
   <!-- Browser themes -->
   <meta name="theme-color" content="#000">
@@ -74,34 +74,49 @@
 </head>
 
 <body id="page-top">
+  <!--Facebook SDK2 start-->
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+<!---Facebook SDK2 end-->
   <!-- Navigation Start -->
   <nav id="navigation" class="navbar navbar-fixed-top">
     <div class="container">
       <div class="row">
         <div class="navbar-header col-lg-3">
+
+          <a class="navbar-brand font-family-alt letter-spacing-1 text-extra-large text-uppercase" href="#page-top">
+            <img class="logo-navbar-dark pc" src="res/images/logos/TedXMU_dark.png" alt="TEDxMU"/>
+            <img class="logo-navbar-white pc"  src="res/images/logos/TedXMU_light.png" alt="TEDxMU"/>
+            <img class="logo-navbar-dark mobile" src="res/images/logos/TedXMU_dark2.png" alt="TEDxMU"/>
+            <img class="logo-navbar-white mobile"  src="res/images/logos/TedXMU_light2.png" alt="TEDxMU"/>
+          </a>
+
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
-          <a class="navbar-brand font-family-alt letter-spacing-1 text-extra-large text-uppercase" href="/">
-            <img class="logo-navbar-dark" src="res/images/logos/dark.png" alt="TEDxMU"/>
-            <img class="logo-navbar-white" src="res/images/logos/light.png" alt="TEDxMU"/>
-          </a>
         </div>
         <!-- //.navbar-header -->
 
         <div id="navbar" class="navbar-collapse collapse col-lg-9 pull-right">
           <ul class="nav navbar-nav font-family-alt letter-spacing-1 text-uppercase font-weight-700">
-            <li><a href="#page-top" class="page-scroll">About</a></li>
-            <li><a href="/speakers/" class="line-height-unset">Speakers</a></li>
-            <li><a href="/our-team/" class="line-height-unset">Our Team</a></li>
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="speakers.html" class="line-height-unset">Speakers</a></li>
+            <li><a href="team.html" class="line-height-unset">Our Team</a></li>
+            <li><a href="blog.php" class="line-height-unset">Blogs</a></li>
+            <li><a href="video.php" class="line-height-unset">Videos</a></li>
             <li><a href="sponsors.html" class="line-height-unset">Sponsors</a></li>
-            <li><a href="/contact/" class="line-height-unset">Contact Us</a></li>
-            <li class="bg-base-color">
-              <a href="/register/" class="line-height-unset width-100">
+            <li><a href="" class="line-height-unset">Contact Us</a></li>  
+              <li class="bg-base-color">
+              <a href="soon.html"   class="line-height-unset width-100">
                 Register
               </a>
             </li>
@@ -114,8 +129,6 @@
     <!-- //.container -->
   </nav>
   <!-- //Navigation End -->
-
-
 
   <!-- Section - Home Start -->
   <section id="home-bg-slideshow" class="bg-gray-dark-2 height-100 no-padding overflow-hidden width-100">
@@ -133,7 +146,7 @@
                     </h2>
                     <br>
                     <h3 class="font-weight-700 letter-spacing-2 text-white xs-title-large sm-title-extra-large title-extra-large-3">
-                      February 15,2019
+                      February 15, 2019
                     </h3>
                     <p class="font-family-alt text-white sm-title-small title-medium">
                       at
@@ -149,6 +162,24 @@
                   <!-- //.col-md-10 -->
                 </div>
                 <!-- //.row -->
+              </div>
+              <div class="countdown-timer">
+                <div class="days">
+                  <span class="value">00</span>
+                  <span class="label">DAYS</span>
+                </div>
+                <div class="hours">
+                  <span class="value">00</span>
+                  <span class="label">HOURS</span>
+                </div>
+                <div class="minutes">
+                  <span class="value">00</span>
+                  <span class="label">MINS</span>
+                </div>
+                <div class="seconds">
+                  <span class="value">00</span>
+                  <span class="label">SEC</span>
+                </div>
               </div>
               <!-- //.container -->
             </div>
@@ -169,7 +200,7 @@
                     </h2>
                     <br>
                     <h3 class="font-weight-700 letter-spacing-2 text-white xs-title-large sm-title-extra-large title-extra-large-3">
-                       Feburary 15, 2019
+                       February 15, 2019
                     </h3>
                     <p class="font-family-alt text-white sm-title-small title-medium">
                       at
@@ -185,6 +216,24 @@
                   <!-- //.col-md-10 -->
                 </div>
                 <!-- //.row -->
+              </div>
+              <div class="countdown-timer">
+                <div class="days">
+                  <span class="value">00</span>
+                  <span class="label">DAYS</span>
+                </div>
+                <div class="hours">
+                  <span class="value">00</span>
+                  <span class="label">HOURS</span>
+                </div>
+                <div class="minutes">
+                  <span class="value">00</span>
+                  <span class="label">MINS</span>
+                </div>
+                <div class="seconds">
+                  <span class="value">00</span>
+                  <span class="label">SEC</span>
+                </div>
               </div>
               <!-- //.container -->
             </div>
@@ -205,7 +254,7 @@
                     </h2>
                     <br>
                     <h3 class="font-weight-700 letter-spacing-2 text-white xs-title-large sm-title-extra-large title-extra-large-3">
-                      Feburary 15, 2019
+                      February 15, 2019
                     </h3>
                     <p class="font-family-alt text-white sm-title-small title-medium">
                       at
@@ -221,6 +270,24 @@
                   <!-- //.col-md-10 -->
                 </div>
                 <!-- //.row -->
+              </div>
+              <div class="countdown-timer">
+                <div class="days">
+                  <span class="value">00</span>
+                  <span class="label">DAYS</span>
+                </div>
+                <div class="hours">
+                  <span class="value">00</span>
+                  <span class="label">HOURS</span>
+                </div>
+                <div class="minutes">
+                  <span class="value">00</span>
+                  <span class="label">MINS</span>
+                </div>
+                <div class="seconds">
+                  <span class="value">00</span>
+                  <span class="label">SEC</span>
+                </div>
               </div>
               <!-- //.container -->
             </div>
@@ -235,14 +302,18 @@
     <!-- //.bg-slideshow-wrapper -->
   </section>
   <!-- //Section - Home End -->
+
   <!--Section about start-->
+  <a id="about"></a>
   <div class="container-fluid">
   <section class="row theme" id="theme">
     <div class="row">
       <div class="col-md-6 description wow fadeInUp">
         <h1><span class="underline">Ch</span>anging Era</h1>
         <br>
-        <p>In Ancient Greece, the Muses were invoked by artists to serve as sources of inspiration for their work. Indeed, inspiration is what fuels our actions and provides a sense of purpose. TED as a society believes passionately in the power of an individual and her ideas to change the world. TEDxIITRoorkee2017: Mustering Muses aims to unleash our untapped potential and seeks to summon the very source of inspiration from within each of us.</p>
+        <p>"We are not living an era of change ,but a change of era"- Pope Francis
+Continuous change is always exhausting. But it's time people aren't afraid of change anymore. It's time to make that change rather empowering and energizing. It's time to change the era.
+The TED organization passionately believes that even a few powerful ideas can transform the world for good. TEDxMedi-CapsUniversity2019: Changing Era, focuses on bringing together  some great minds and influencers who are actively contributing to draw on a change in the society, to foster learning, inspiration and provoke conversations that matter.</p>
       </div>
       <div class="col-md-6 tab-div">
         <div class="wow fadeInUp">
@@ -251,7 +322,7 @@
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#iitr" aria-controls="iitr" role="tab" data-toggle="tab">What is TED</a></li>
             <li role="presentation"><a href="#ted" aria-controls="ted" role="tab" data-toggle="tab">What is TEDx</a></li>
-            <li role="presentation"><a href="#tedx" aria-controls="tedx" role="tab" data-toggle="tab">TEDxMU</a></li>
+            <li role="presentation"><a href="#tedx" aria-controls="tedx" role="tab" data-toggle="tab">TEDxMedi-CapsUniversity</a></li>
           </ul>
 
           <!-- Tab panes -->
@@ -289,11 +360,10 @@
             </h3>
             <br>
             <p class="font-family-alt letter-spacing-1 margin-3 no-margin-bottom no-margin-rl text-white xs-title-small title-large text-uppercase font-weight-700">
-              Big Auditorium,<br>
-              Medi-Caps University
+                Medi-Caps University
             </p>
             <br>
-            <a href="https://goo.gl/maps/4Y14DhZe4Fu" target="_blank"
+            <a href="https://goo.gl/maps/zrcM54KsL9m" target="_blank"
                 class="btn btn-outline-white sm-btn-medium btn-large margin-4-5 no-margin-bottom no-margin-rl">
               View location on map
             </a>
@@ -307,116 +377,6 @@
     <!-- //.display-table-cell -->
   </section>
   <!-- //Section - Venue End -->
-
-
-
-  <!-- Section - Social start -->
-  <section id="social" class="bg-gray-light-2 pull-up">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="font-family-alt font-weight-700 sm-title-large title-extra-large-2 text-gray-dark-2">
-            Connect with us
-          </h2>
-          <span class="bg-base-color margin-4 no-margin-bottom no-margin-rl separator-line-extra-thick-long"></span>
-        </div>
-      </div>
-      <!-- //.row -->
-      <br><br>
-      <div class="row">
-        <!-- Social Box -->
-        <div class="features-box col-sm-6 col-md-4">
-          <div class="border border-gray-light border-round box-shadow-yes position-relative bg-white">
-            <div class="display-table height-100 no-padding-rl padding-7 width-100">
-              <div class="display-table-cell no-padding-tb padding-8 vertical-align-middle">
-                <span class="display-block font-weight-700 letter-spacing-1 text-large text-uppercase margin-4 no-margin-rl no-margin-top text-center">
-                  Facebook
-                </span>
-
-                <!-- Facebook plugin -->
-                <div id="fb-root"></div>
-
-                <script>(function(d, s, id) {
-                  var js, fjs = d.getElementsByTagName(s)[0];
-                  if (d.getElementById(id)) return;
-                  js = d.createElement(s); js.id = id;
-                  js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=203606196348015";
-                  fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'facebook-jssdk'));</script>
-
-                <div class="fb-page" data-href="https://www.facebook.com/Tedx-MedicapsUniversity/" data-tabs="timeline"
-                    data-small-header="true" data-adapt-container-width="true" data-hide-cover="true"
-                    data-show-facepile="false">
-                  <blockquote cite="https://www.facebook.com/Tedx-MedicapsUniversity/" class="fb-xfbml-parse-ignore">
-                    <a href="https://www.facebook.com/Tedx-MedicapsUniversity/">TEDxMU</a>
-                  </blockquote>
-                </div>
-                <!-- //Facebook plugin -->
-              </div>
-              <!-- //.display-table-cell -->
-            </div>
-            <!-- //.display-table -->
-          </div>
-          <!-- //.border -->
-        </div>
-        <!-- //Social Box -->
-
-        <!-- Social Box -->
-        <div class="features-box col-sm-6 col-md-4 xs-margin-4 xs-no-margin-rl xs-no-margin-bottom">
-          <div class="border border-gray-light border-round box-shadow-yes position-relative bg-white">
-            <div class="display-table height-100 no-padding-rl padding-7 width-100">
-              <div class="display-table-cell no-padding-tb padding-8 vertical-align-middle">
-                <span class="display-block font-weight-700 letter-spacing-1 text-large text-uppercase margin-4 no-margin-rl no-margin-top text-center">
-                  Twitter
-                </span>
-
-                <!-- Twitter timeline -->
-                <a class="twitter-timeline" data-height="493" data-chrome="noheader, nofooter"
-                  data-dnt="true" href="https://twitter.com/TEDx_MU">Tweets by TEDx_JMI</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <!-- //Twitter timeline -->
-              </div>
-              <!-- //.display-table-cell -->
-            </div>
-            <!-- //.display-table -->
-          </div>
-          <!-- //.border -->
-        </div>
-        <!-- //Social Box -->
-
-
-        <!-- Social Box -->
-        <div class="features-box col-sm-6 col-md-4 sm-margin-4 sm-no-margin-rl sm-no-margin-bottom">
-          <div class="border border-gray-light border-round box-shadow-yes position-relative bg-white">
-            <div class="display-table height-100 no-padding-rl padding-7 width-100">
-              <div class="display-table-cell no-padding-tb padding-8 vertical-align-middle">
-                <span class="display-block font-weight-700 letter-spacing-1 text-large text-uppercase margin-4 no-margin-rl no-margin-top text-center">
-                  Instagram
-                </span>
-
-                <!-- Instagram posts -->
-                <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                <div style="height: 500px; overflow-y: auto">
-                  <iframe src="https://snapwidget.com/embed/428495" class="snapwidget-widget" allowTransparency="true" frameborder="0" style="border:none; width:100%;"></iframe>
-                </div>
-                <!-- //Instagram posts -->
-              </div>
-              <!-- //.display-table-cell -->
-            </div>
-            <!-- //.display-table -->
-          </div>
-          <!-- //.border -->
-        </div>
-        <!-- //Social Box -->
-      </div>
-      <!-- //.row -->
-    </div>
-    <!-- //.container -->
-  </section>
-  <!-- //Section - Social end -->
-
-
-
   <div class="row">
   <!-- Section - Event banner start -->
   <section id="event-banner" class="bg-white pull-up">
@@ -427,7 +387,7 @@
             Date &amp; Time
           </span>
           <p class="margin-3 font-family-alt no-margin-bottom no-margin-rl title-small text-gray-dark-2">
-            Feburary 15, 2019<br>
+            February 15, 2019<br>
             10 AM to 5 PM
           </p>
         </div>
@@ -439,12 +399,10 @@
             Venue
           </span>
           <p class="margin-3 font-family-alt no-margin-bottom no-margin-rl title-small text-gray-dark-2">
-            Big Auditorium,<br>
             Medi-Caps University
           </p>
         </div>
         <!-- //.col-sm-4 -->
-5
         <div id="banner-registration" class="col-sm-4 xs-margin-8 xs-no-margin-bottom xs-no-margin-rl text-center">
           <a href="/res/insider_guide.pdf" class="btn btn-outline-base-color sm-btn-medium btn-large no-margin-rl">
             <span>Download<br>insider guide</span>
@@ -456,46 +414,13 @@
     </div>
   </section>
   <!-- //Section - Event banner end -->
-
-
-
-  <!-- Section - Parallax banner start -->
-  <section id="home-bg-parallax" class="height-50 no-padding overflow-hidden width-100">
-    <!-- BG Parallax -->
-    <div class="bg-parallax bg-overlay-black-5 width-100"></div>
-
-    <div class="display-table height-100 position-absolute position-top position-left width-100">
-      <div class="display-table-cell vertical-align-middle">
-        <div class="container">
-          <div class="row">
-            <div class="countdown-timer">
-              <div class="days">
-                <span class="value">00</span>
-                <span class="label">DAYS</span>
-              </div>
-              <div class="hours">
-                <span class="value">00</span>
-                <span class="label">HOURS</span>
-              </div>
-              <div class="minutes">
-                <span class="value">00</span>
-                <span class="label">MINS</span>
-              </div>
-              <div class="seconds">
-                <span class="value">00</span>
-                <span class="label">SEC</span>
-              </div>
-            </div>
-          </div>
-          <!-- //.row -->
-        </div>
-        <!-- //.container -->
-      </div>
-      <!-- //.display-table-cell -->
+  <!-- Section Map start-->
+  <section class="map2">
+    <div class="">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9104176556884!2d75.80231971496046!3d22.619820185158478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f958dcb7169d%3A0xd877c12078e50f0f!2sMedi-Caps+University!5e0!3m2!1sen!2sin!4v1539672508272" width="100%" height="550px"frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-    <!-- //.display-table -->
   </section>
-  <!-- //Section - Parallax banner end -->
+  <!--Section Map end -->
 
 
 
@@ -505,7 +430,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="footer-logo xs-text-center">
-            <img src="res/images/logos/light.png" alt="">
+            <img src="res/images/logos/TedXMU_light.png" alt="">
           </div>
           <!-- //.footer-logo -->
           <p class="disclaimer xs-text-center">
@@ -519,9 +444,12 @@
           <div class="footer-social text-right">
             <ul class="list-inline list-unstyled no-margin xs-text-center xs-title-small title-medium">
               <li><a href="https://facebook.com/Tedx-MedicapsUniversity"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/TEDx_MU"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://tedx@medicaps.ac.in"><i class="fa fa-envelope"></i></a></li>
               <li><a href="https://instagram.com/tedxmedicapsuniversity"><i class="fa fa-instagram"></i></a></li>
             </ul>
+            <p class="disclaimer xs-text-center">
+              Website By:<br>Anurag Phadnis<br>Prateek Purohit<br>Aman Shah<br>
+            </p>
           </div>
           <!-- //.footer-social -->
         </div>
@@ -532,7 +460,6 @@
     <!-- //.container -->
   </footer>
   <!-- //Footer End -->
-
 
   <!-- Scroll to top -->
   <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
@@ -570,7 +497,6 @@
   <!-- Countdown -->
   <script src="res/js/jquery.countdown.min.js"></script>
   <script src="res/js/countdown.js"></script>
-
 </body>
 
 </html>
